@@ -9,6 +9,9 @@ For requirements, please check the document "Federal Holiday Assessment.md".
 - The project uses postgresql database for storing the holidays.
 - Uploaded files for federal holidays are in json format.
 - Country/Date should be unique for each holiday, so the combination of country and date is used as a unique constraint in the database.
+- Index is added on country column to speed up search criteria and support join to possible country table for extensibility.
+- Exceptions such as uniqueness violation or invalid holiday input in upload file are handled as RuntimeException for demo purpose.
+- Transforming between DTO and Entity is omitted due to limited requirements from service consumers. 
 - Unit tests are implemented using JUnit and Mockito frameworks by Codex.
 
 ### Guides
