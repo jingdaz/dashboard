@@ -1,0 +1,11 @@
+package com.rbc.clear.dashboard.repository;
+
+import com.rbc.clear.dashboard.model.Holiday;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface HolidayRepository extends JpaRepository<Holiday, Long> {
+
+    List<Holiday> findByCountry(String country);
+}

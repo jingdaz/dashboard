@@ -1,0 +1,38 @@
+[
+    {
+      "country": "CA",
+      "date": "2026-01-01",
+      "name": "New Year's Day",
+      "year": 2026
+    },
+    {
+      "country": "CA",
+      "date": "2026-02-16",
+      "name": "Family Day",
+      "year": 2026
+    },
+    {
+      "country": "CA",
+      "date": "2026-10-12",
+      "name": "Thanksgiving",
+      "year": 2026
+    },
+    {
+        "country": "US",
+        "date": "2026-01-01",
+        "name": "New Year's Day",
+        "year": 2026
+    },
+    {
+        "country": "US",
+        "date": "2026-07-04",
+        "name": "Independence Day",
+        "year": 2026
+    },
+    {
+        "country": "US",
+        "date": "2026-12-25",
+        "name": "Christmas Day",
+        "year": 2026
+    }
+]
